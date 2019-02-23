@@ -11,3 +11,10 @@
     torch.Size([2, 3, 4])
     torch.Size([1, 3, 4])
     torch.Size([3, 4])
+    
+2、矩阵乘法
+①   torch.mm(mat1, mat2, out=None) → Tensor
+    This function does not broadcast. 
+    For broadcasting matrix products, see torch.matmul().
+②   torch.matmul(tensor1, tensor2, out=None) → Tensor
+    Matrix product of two tensors.
